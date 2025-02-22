@@ -32,4 +32,4 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest app_test.py
+        python3 -m pytest app_test.py
